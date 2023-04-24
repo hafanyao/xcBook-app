@@ -16,10 +16,9 @@ app.$mount()
 import {
 	createSSRApp
 } from 'vue'
-app.use(uviewPlus)
-
 export function createApp() {
 	const app = createSSRApp(App)
+	app.use(uviewPlus)
 	return {
 		app
 	}

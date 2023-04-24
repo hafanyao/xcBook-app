@@ -3,9 +3,9 @@
 		页面 - 1
 		<uni-badge text="1"></uni-badge>
 		<uni-badge text="3" type="primary" :inverted="true"></uni-badge>
-	<!-- 	<view class="">
+		<view class="">
 			<u-action-sheet :list="list" v-model="show"></u-action-sheet>
-		</view> -->
+		</view>
 	</view>
 </template>
 
